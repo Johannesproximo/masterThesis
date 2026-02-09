@@ -1,0 +1,19 @@
+name: masterArbeit
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - jupyter
+  - pandas
+  - python=3.12
+  - scikit-learn
+  - seaborn
+  - pytorch
+  - timm
+  - python-dwca-reader
+  - webdataset
+  - nbconvert
+  - conda-forge::lz4
+  - opencv
+prefix: /home/stud/jleick/miniconda3/envs/masterArbeit

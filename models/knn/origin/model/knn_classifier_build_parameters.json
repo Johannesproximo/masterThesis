@@ -1,0 +1,9 @@
+{
+  "model_name": "knn_AMI-fine-grained",
+  "metric": "cosine",
+  "fit_time": "0:00:04.655802",
+  "data_path": "/home/jleick/masterArbeitProjekt/final_release/data/datasets/created/high_id_train.csv",
+  "number_of_examples": 85803,
+  "embeddings_created_on": "vit_small_patch14_dinov2.lvd142m",
+  "embeddings_normalised": "l2_norm"
+}

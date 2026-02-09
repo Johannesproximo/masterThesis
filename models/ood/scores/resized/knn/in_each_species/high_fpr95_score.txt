@@ -1,0 +1,3 @@
+FPR95 (interpolated): 0.8793
+TPR closest to 0.95: 0.9490
+FPR95 (closest): 0.8776

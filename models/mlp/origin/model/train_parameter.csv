@@ -1,0 +1,26 @@
+Category,Name,Value
+General,Seed,42
+General,start_time,2025-08-18 14:09:45.305748
+General,end_time,2025-08-19 23:47:51.782087
+General,duration,"1 day, 9:38:06.476339"
+General,embeddings_created_on,vit_small_patch14_dinov2.lvd142m
+General,data_split,/home/jleick/masterArbeitProjekt/final_release/data/datasets/created/high_id_train.csv
+General,validation function,<function validate_balanced_accuracy at 0x7e3f81d67a60>
+Model,Architecture,"
+model = nn.Sequential(
+    nn.Linear(384, 192),
+    nn.Tanh(),
+    nn.Linear(192, 91),
+).to(device=device)
+"
+Optimizer,Name,AdamW
+Optimizer,learning_rate,0.001
+Optimizer,weight_decay,1e-05
+Scheduler,LinearLR_start_factor,0.1
+Scheduler,LinearLR_end_factor,1.0
+Scheduler,CosineAnnealingLR_t_max,28
+Parameter,n_epoch,30
+Parameter,batch_size,128
+class_Balancing,WeightedRandomSampler,replacement True
+Loss,loss_function,CrossEntropyLoss
+Loss,label_smoothing,0.1

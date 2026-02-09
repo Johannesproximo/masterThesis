@@ -1,0 +1,17 @@
+__history/
+__pycache__/
+
+.ipynb_checkpointsS
+.vscode
+
+data/datasets/ami/
+
+# da symlink
+data/embeddings
+data/images
+
+*.png
+*.npy
+*.joblib
+
+environment_verbose.yml
