@@ -1,10 +1,12 @@
+!**/ .gitkeep
+
 __history/
 __pycache__/
 
 .ipynb_checkpoints/
 .vscode
 
-data/datasets/ami/
+data/datasets/ami/**/*.csv
 
 # da symlink
 data/embeddings

@@ -1,0 +1,2 @@
+## traps_fine-grained_embeddings.csv
+- file created while executing '/home/jleick/masterArbeitProjekt/final_release/jupyter_notebooks/1_image_and_embedding_creation_low/2_low_ImageExtractionEmbeddings_(trap).ipynb'
