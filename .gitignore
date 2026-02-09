@@ -1,7 +1,7 @@
 __history/
 __pycache__/
 
-.ipynb_checkpointsS
+.ipynb_checkpoints
 .vscode
 
 data/datasets/ami/
