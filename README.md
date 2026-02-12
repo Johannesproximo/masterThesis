@@ -1,9 +1,8 @@
-# Adapting DINOv2 Embeddings for Fine-Grained Species Classification and Novelty Detection in Automated Moth Monitoring
----
-This is the repository for my Master's thesis project, which I conducted under the supervision of the chair for [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg.
+# Master-Thesis: Adapting DINOv2 Embeddings for Fine-Grained Species Classification and Novelty Detection in Automated Moth Monitoring
+**Autor:** Johannes Leick <br>
+**Institution:** [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg
 
-### Objektive:
-
+### Abstract:
 This master’s thesis investigates and evaluates modern computer vision methods for the automated monitoring of moths. Given the context of global biodiversity loss and the need for scalable monitoring systems, this work assesses the suitability of self-supervised embeddings -- extracted from the DINOv2 (Small) foundation model -- to address challenges in Fine-Grained Visual Classification (FGVC), Domain Generalization (DG), and Novelty Detection (ND).
 
 The AMI (Automated Monitoring of Insects) data source, characterized by high taxonomic diversity and varying image quality (high-resolution GBIF vs. low-resolution trap imagery), effectively representing real-world trap conditions. For this study, the AMI dataset was utilized in an adapted format at the species level, while its technical availability and suitability as a benchmark were simultaneously evaluated.
@@ -19,14 +18,9 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
 
 
 ### Quick start
-1. Clone repository: ''' git clone https://github.com/Johannesproximo/masterThesis.git '''
-2. Set up environment: ''' conda env create -f environment.yml '''
-3. Activate environment: ''' conda activate masterThesis '''
-4. Run Jupyter notebooks contained in the folder: ''' masterThesis/jupyter_notebooks/* '''
+1. Clone repository: ``` git clone https://github.com/Johannesproximo/masterThesis.git ```
+2. Set up environment: ``` conda env create -f environment.yml ```
+3. Activate environment: ``` conda activate masterThesis ```
+4. Run Jupyter notebooks contained in the folder: ``` masterThesis/jupyter_notebooks/* ```
 
----
----
 
-# Master-Thesis: Adapting DINOv2 Embeddings for Fine-Grained Species Classification and Novelty Detection in Automated Moth Monitoring
-**Autor:** Johannes Leick
-**Institution:** [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg
