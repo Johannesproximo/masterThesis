@@ -9,11 +9,15 @@ __pycache__/
 data/datasets/ami/**/*.csv
 
 # da symlink
-data/embeddings
-data/images
+# data/embeddings
+# data/images
 
 *.png
+*.pt
 *.npy
 *.joblib
+
+# data/images/anomalies/**/*.png
+data/images/padding_experiment/**/*.png
 
 environment_verbose.yml
