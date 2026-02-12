@@ -1,4 +1,4 @@
-name: masterArbeit
+name: masterThesis
 channels:
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
@@ -16,4 +16,4 @@ dependencies:
   - nbconvert
   - conda-forge::lz4
   - opencv
-prefix: /home/stud/jleick/miniconda3/envs/masterArbeit
+prefix: /home/stud/jleick/miniconda3/envs/masterThesis
