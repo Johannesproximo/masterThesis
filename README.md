@@ -35,7 +35,7 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
    ```
 7. Adapt the paths in the Jupyter notebooks located in:
 
-   `jupyter_notebooks/*`
+   `jupyter_notebooks/...`
 
    For example, start with the notebook for image downloads:
 
