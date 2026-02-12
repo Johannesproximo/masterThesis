@@ -18,9 +18,33 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
 
 
 ### Quick start
-1. Clone repository: ``` git clone https://github.com/Johannesproximo/masterThesis.git ```
-2. Set up environment: ``` conda env create -f environment.yml ```
-3. Activate environment: ``` conda activate masterThesis ```
-4. Run Jupyter notebooks contained in the folder: ``` masterThesis/jupyter_notebooks/* ```
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Johannesproximo/masterThesis.git
+   ```
+3. Set up environment:
+   ```bash
+   conda env create -f environment.yml
+   ```
+5. Activate environment:
+   ```bash
+   conda activate masterThesis
+   ```
+7. Adapt the paths in the Jupyter notebooks located in:
+
+   `jupyter_notebooks/*`
+
+   For example, start with the notebook for image downloads:
+
+   `jupyter_notebooks/00_download_image_high/fine_grain/0_download_images.ipynb`
+
+8. Run Jupyter notebooks
 
 
+### Dependencies
+
+The environment is based on **Python 3.12** and includes the following core libraries  
+(managed via `environment.yml`):
+- **Data Science:** pandas, scikit-learn, seaborn, opencv  
+- **Deep Learning:** pytorch, timm  
+- **Specialized:** python-dwca-reader, webdataset, nbconvert, conda-forge::lz4
