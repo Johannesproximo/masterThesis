@@ -8,7 +8,7 @@ __pycache__/
 
 data/datasets/ami/**/*.csv
 
-# da symlink
+# Symbolic links - content not documentable on repository
 # data/embeddings
 # data/images
 
