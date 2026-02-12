@@ -22,7 +22,10 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
    ```bash
    git clone https://github.com/Johannesproximo/masterThesis.git
    ```
-3. Set up environment:
+3. Set up environment: <br>
+   If you do not have Conda installed, we recommend Miniconda, a lightweight version of Anaconda. <br>
+   Follow the instruction at [webpage of miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install) 
+   
    ```bash
    conda env create -f environment.yml
    ```
@@ -40,9 +43,7 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
 
 8. Run Jupyter notebooks
 
-
 ### Dependencies
-
 The environment is based on **Python 3.12** and includes the following core libraries  
 (managed via `environment.yml`):
 - **Data Science:** pandas, scikit-learn, seaborn, opencv  
