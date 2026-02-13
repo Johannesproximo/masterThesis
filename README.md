@@ -15,8 +15,6 @@ The cropping of rectangular images during feature vector extraction and the subs
 
 Overall, the DINOv2 embeddings effectively captured fine morphological differences between 91 moth species within the high-resolution latent space. However, under domain shift, the compactness of the representations was significantly degraded, reducing class separability for both MLP and KNN models. In particular, the density-based DKNN approach to Novelty Detection (ND) failed in this scenario, as it was no longer possible to distinguish between 91 known and 37 unknown species.
 
-
-
 ### Quick start
 1. Clone repository:
    ```bash
@@ -48,3 +46,12 @@ The environment is based on **Python 3.12** and includes the following core libr
 - **Data Science:** pandas, scikit-learn, seaborn, opencv  
 - **Deep Learning:** pytorch, timm  
 - **Specialized:** python-dwca-reader, webdataset, nbconvert, conda-forge::lz4
+
+### Repository Structure
+| File / Folder        | Description                                                                 |
+|----------------------|------------------------------------------------------------------------------|
+| `data/`              | Contains CSV datasets from the original AMI dataset, including the documented download status of each sample, as well as datasets created for this thesis. |
+| `jupyter_notebooks/` | Contains the Jupyter notebooks developed for the implementation of this thesis. |
+| `models/`            | Contains all created classifiers (models), their corresponding classification results, and visualisations. |
+| `environment.yml`    | Configuration file for the Conda environment. |
+| `masterThesis_v2`    | Contains the second version of the master’s thesis with formatting corrections. |
