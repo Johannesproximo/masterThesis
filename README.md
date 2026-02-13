@@ -23,7 +23,7 @@ Overall, the DINOv2 embeddings effectively captured fine morphological differenc
    git clone https://github.com/Johannesproximo/masterThesis.git
    ```
 3. Set up environment: <br>
-   If you do not have Conda installed, we recommend installing Miniconda, which is a lightweight version of Anaconda.  <br>
+   If you do not have Conda installed, we recommend installing Miniconda instead, as this is a more lightweight version. Therefore:
    Follow the instructions on the [Miniconda webpage](https://www.anaconda.com/docs/getting-started/miniconda/install).
    
    ```bash
