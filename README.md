@@ -54,4 +54,4 @@ The environment is based on **Python 3.12** and includes the following core libr
 | `jupyter_notebooks/` | Contains the Jupyter notebooks developed for the implementation of this thesis. |
 | `models/`            | Contains all created classifiers (models), their corresponding classification results, and visualisations. |
 | `environment.yml`    | Configuration file for the Conda environment. |
-| `masterThesis_v2`    | Contains the second version of the master’s thesis with formatting corrections. |
+| `masterThesis_v2.pdf`    | Contains the second version of the master’s thesis with formatting corrections. |
