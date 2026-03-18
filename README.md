@@ -51,8 +51,8 @@ The environment is based on **Python 3.12** and includes the following core libr
 ### Repository Structure
 | File / Folder        | Description                                                                 |
 |----------------------|------------------------------------------------------------------------------|
-| `data/`              | Contains CSV datasets from the original AMI dataset, including the documented download status of each sample, as well as datasets created for this thesis. |
 | `code/` | Contains the Jupyter notebooks developed for the implementation of this thesis. |
+| `data/`              | Contains CSV datasets from the original AMI dataset, including the documented download status of each sample, as well as datasets created for this thesis. |
 | `models/`            | Contains all created classifiers (models), their corresponding classification results, and visualisations. |
 | `results/`            | Contains all classification results, and visualisations. |
 | `environment.yml`    | Configuration file for the Conda environment. |
