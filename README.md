@@ -57,8 +57,8 @@ The environment is based on **Python 3.12** and includes the following core libr
 |----------------------|------------------------------------------------------------------------------|
 | `code/` | Contains the Jupyter notebooks developed for the implementation of this thesis. |
 | `data/`              | Contains CSV datasets from the original AMI dataset, including the documented download status of each sample, as well as datasets created for this thesis. |
-| `models/`            | Contains all created classifiers (models), their corresponding classification results, and visualisations. |
-| `results/`            | Contains all classification results, and visualisations. |
+| `models/`            | Contains all created classifiers (models) and visualisations. |
+| `results/`            | Contains all classification results and visualisations. |
 | `environment.yml`    | Configuration file for the Conda environment. |
 | `masterThesis_v2.pdf`    | Contains the second version of the master’s thesis with formatting corrections. |
 | `presentation(20min).pdf`    | Contains final presentation of the master’s thesis. |
