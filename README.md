@@ -57,4 +57,4 @@ The environment is based on **Python 3.12** and includes the following core libr
 | `results/`            | Contains all classification results, and visualisations. |
 | `environment.yml`    | Configuration file for the Conda environment. |
 | `masterThesis_v2.pdf`    | Contains the second version of the master’s thesis with formatting corrections. |
-| `presentation(20min).pdf`    | Contains final presentation of the master thesis. |
+| `presentation(20min).pdf`    | Contains final presentation of the master’s thesis. |
