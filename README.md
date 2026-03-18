@@ -1,6 +1,10 @@
 # Master-Thesis: Adapting DINOv2 Embeddings for Fine-Grained Species Classification and Novelty Detection in Automated Moth Monitoring
+
 **Autor:** Johannes Leick <br>
-**Institution:** [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg
+**Institution:** [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg <br>
+
+**Thesis:** [pdf](./masterThesis_v2.pdf) <br>
+**Presentation slides:** [pdf](./presentation(20min).pdf) <br>
 
 This thesis investigates the use of modern computer vision methods for automated moth monitoring in biodiversity research. Using self-supervised image embeddings extracted from the DINOv2 foundation model, the study evaluates approaches for fine-grained species classification, domain generalization, and novelty detection on the AMI dataset.
 
