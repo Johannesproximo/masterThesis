@@ -12,7 +12,7 @@ data/datasets/ami/**/*.csv
 # data/embeddings
 # data/images
 
-*.png
+# *.png
 *.pt
 *.npy
 *.joblib
