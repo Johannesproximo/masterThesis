@@ -3,7 +3,7 @@
 **Autor:** Johannes Leick <br>
 **Institution:** [Explainable Artificial Intelligence (xAI)](https://www.uni-bamberg.de/en/ai/chair-of-explainable-machine-learning/) at Otto Friedrich University of Bamberg <br>
 
-**Thesis:** [pdf](./masterThesis_v2.pdf) <br>
+**Thesis:** [pdf](./masterThesis_v3.pdf) <br>
 **Presentation slides:** [pdf](./presentation(20min).pdf) <br>
 
 This thesis investigates the use of modern computer vision methods for automated moth monitoring in biodiversity research. Using self-supervised image embeddings extracted from the DINOv2 foundation model, the study evaluates approaches for fine-grained species classification, domain generalization, and novelty detection on the AMI dataset.
@@ -60,5 +60,5 @@ The environment is based on **Python 3.12** and includes the following core libr
 | `models/`            | Contains all created classifiers (models) and visualisations. |
 | `results/`            | Contains all classification results and visualisations. |
 | `environment.yml`    | Configuration file for the Conda environment. |
-| `masterThesis_v2.pdf`    | Contains the second version of the master’s thesis with formatting corrections. |
+| `masterThesis_v3.pdf`    | Contains the third version of the master’s thesis with formatting and url corrections. |
 | `presentation(20min).pdf`    | Contains final presentation of the master’s thesis. |
